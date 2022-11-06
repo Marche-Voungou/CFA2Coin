@@ -44,9 +44,6 @@ contract EthSwap {
 
     uint etherAmount = _amount / rate;
 
-    require(address(this).balance >= etherAmount);
-    require(token.balanceOf(msg.sender) >= _amount);
-
     token.transferFrom(msg.sender,address(this),_amount);
     msg.sender.transfer(etherAmount);
     

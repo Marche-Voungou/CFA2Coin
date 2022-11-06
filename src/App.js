@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-//import SimpleStorageContract from "./build/contracts/SimpleStorage.json";
-import SimpleStorageContract from "./build/contracts/SimpleStorage.sol";
-//import SimpleStorageContract from "./src/SimpleStorage.json";
+//import SimpleStorageContract from "./build/contracts/SimpleStorage.sol";
+import SimpleStorageContract from "./build/contracts/SimpleStorage.json";
+// import SimpleStorageContract from "./src/SimpleStorage.json";
 import getWeb3 from "./getWeb3";
 
 import "./App.css";
